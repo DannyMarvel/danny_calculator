@@ -96,7 +96,7 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
 //A widget that rebuilds a button via a loop
-  Widget buildButton(String buttonText) {
+  Widget  buildButton(String buttonText) {
     return Expanded(
       child: SizedBox(
         height: 70,
@@ -173,6 +173,9 @@ class _MyHomePageState extends State<MyHomePage> {
                     buildButton('5'),
                     buildButton('6'),
                     buildButton('x'),
+                    buildButton('x'),
+                    buildButton('x'),
+                    buildButton('x'),
                   ],
                 ),
                 Row(
@@ -195,6 +198,12 @@ class _MyHomePageState extends State<MyHomePage> {
                   buildButton("CLEAR"),
                   buildButton('='),
                 ]),
+                Text(''),
+                Text(''),
+                Text(''),
+                Text(''),
+                Text(''),
+                Text(''),
               ],
             ),
           ],
