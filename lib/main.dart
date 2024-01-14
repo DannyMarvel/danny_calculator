@@ -173,9 +173,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     buildButton('5'),
                     buildButton('6'),
                     buildButton('x'),
-                    buildButton('x'),
-                    buildButton('x'),
-                    buildButton('x'),
+                    
                   ],
                 ),
                 Row(
@@ -204,6 +202,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 Text(''),
                 Text(''),
                 Text(''),
+                
               ],
             ),
           ],
